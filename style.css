@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+
+}
+.card{
+    font-family: fira code;
+    width: 500px;
+    height: 300px;
+    background: linear-gradient(45deg,#0D0D0D 50%,#323232 50%);
+    border-radius: 30px;
+    color: #C4C4C4;
+    padding: 20px 50px;
+}
+.card-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cip{
+    padding: 10px;
+}
+.cardno{
+    font-size: 20px;
+    word-spacing: 20px;
+}
+.bottom{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardname{
+    margin-top: 30px;
+}
+.altiniciz
+{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.giris{
+    display: flex;
+    flex-direction: column;
+
+}
+.giris *{
+    margin: 10px;
+}
+.giris input{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: #0D0D0D;
+    color: white;
+}
